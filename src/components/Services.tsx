@@ -16,11 +16,14 @@ function Services(props: ServicesProps) {
       <div className="title">
         <h1>OUR SERVICES</h1>
         <img
-          src="/src/assets/ServicesTitleMain.svg"
+          src="./src/assets/ServicesTitleMain.svg"
           className="title-main shadow-filter"
         />
-        <img src="/src/assets/ServicesTitleLeft.svg" className="title-left" />
-        <img src="/src/assets/ServicesTitleRight.svg" className="title-right" />
+        <img src="./src/assets/ServicesTitleLeft.svg" className="title-left" />
+        <img
+          src="./src/assets/ServicesTitleRight.svg"
+          className="title-right"
+        />
       </div>
       <div className="card-list row">
         {props.servicesData.map((servicesData, index) => (

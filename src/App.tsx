@@ -51,7 +51,7 @@ const App: React.FC = () => {
       <Content contentData={contentData} setFilterValues={returnedFilter} />
       <Services servicesData={servicesData} />
       <Contact contactData={contactData} />
-      <img id="whatsapp_icon" src="/src/assets/WhatsappIcon.svg" />
+      <img id="whatsapp_icon" src="./src/assets/WhatsappIcon.svg" />
     </div>
   );
 };
