@@ -2,6 +2,9 @@ import "../css/Search.css";
 import "../css/Filter.css";
 import React, { useState } from "react";
 
+import OneDigitImage from "../assets/OneDigitImage.svg";
+import OtherDigitImage from "../assets/OtherDigitImage.svg";
+
 interface digitFilterData {
   digit: number;
   text: String;
@@ -185,19 +188,30 @@ function Search(props: FilterProps) {
   const digitFilter = (
     <div id="search-digit" className="row">
       {props.digitfilterdata.map((digitfilterdata, index) => (
-        <div
-          key={index}
-          className="card col"
-          style={{ backgroundImage: `url(${digitfilterdata.background})` }}
-        >
-          <button
-            className="card-body digit-filter"
-            value={digitfilterdata.digit}
-            onClick={handleDigitClick}
-            disabled={clickedDigitButton === digitfilterdata.digit}
-          >
-            <h5 className="card-title">{digitfilterdata.text}</h5>
-          </button>
+        <div key={index} className="card col">
+          {digitfilterdata.background === "OneDigitImage" ? (
+            <div style={{ backgroundImage: `url(${OneDigitImage})` }}>
+              <button
+                className="card-body digit-filter"
+                value={digitfilterdata.digit}
+                onClick={handleDigitClick}
+                disabled={clickedDigitButton === digitfilterdata.digit}
+              >
+                <h5 className="card-title">{digitfilterdata.text}</h5>
+              </button>
+            </div>
+          ) : (
+            <div style={{ backgroundImage: `url(${OtherDigitImage})` }}>
+              <button
+                className="card-body digit-filter"
+                value={digitfilterdata.digit}
+                onClick={handleDigitClick}
+                disabled={clickedDigitButton === digitfilterdata.digit}
+              >
+                <h5 className="card-title">{digitfilterdata.text}</h5>
+              </button>
+            </div>
+          )}
         </div>
       ))}
     </div>

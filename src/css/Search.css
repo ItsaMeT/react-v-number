@@ -62,14 +62,18 @@
 
 #search-digit .col{
     margin-right: 8px;
-    background-size: cover;
-    background-position: center;
     width: 180px;
-    height: 95px;
     flex: none;
 }
 
+#search-digit .col div{
+    height: 95px;
+    background-size: cover;
+    background-position: center;
+}
+
 #search-digit .card-body{
+    height: 95px;
     font-size: 22px;
     font-family: 'Roboto Medium';
     color: white;
