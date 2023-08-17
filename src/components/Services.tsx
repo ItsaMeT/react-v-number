@@ -1,5 +1,9 @@
 import "../css/Services.css";
 
+import ServicesTitleMain from "../assets/ServicesTitleMain.svg";
+import ServicesTitleLeft from "../assets/ServicesTitleLeft.svg";
+import ServicesTitleRight from "../assets/ServicesTitleRight.svg";
+
 interface servicesData {
   serviceNumber: String;
   icon: string;
@@ -15,12 +19,9 @@ function Services(props: ServicesProps) {
     <div id="services-cards">
       <div className="title">
         <h1>OUR SERVICES</h1>
-        <img
-          src="../assets/VNumberLogo.svg"
-          className="title-main shadow-filter"
-        />
-        <img src="./assets/ServicesTitleLeft.svg" className="title-left" />
-        <img src="./assets/ServicesTitleRight.svg" className="title-right" />
+        <img src={ServicesTitleMain} className="title-main shadow-filter" />
+        <img src={ServicesTitleLeft} className="title-left" />
+        <img src={ServicesTitleRight} className="title-right" />
       </div>
       <div className="card-list row">
         {props.servicesData.map((servicesData, index) => (
