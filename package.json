@@ -2,7 +2,7 @@
   "name": "react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ItsaMeT.github.io/react-v-number",
+  "homepage": "https://paniktoad.github.io/react-v-number",
   "type": "module",
   "scripts": {
     "dev": "vite",
