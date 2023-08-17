@@ -16,7 +16,7 @@ function Services(props: ServicesProps) {
       <div className="title">
         <h1>OUR SERVICES</h1>
         <img
-          src="./assets/ServicesTitleMain.svg"
+          src="../assets/VNumberLogo.svg"
           className="title-main shadow-filter"
         />
         <img src="./assets/ServicesTitleLeft.svg" className="title-left" />
