@@ -1,0 +1,829 @@
+[
+    {
+        "id": 1,
+        "number": "VE 1",
+        "series": "V",
+        "digit": 1,
+        "price": 338000,
+        "new": false
+    },
+    {
+        "id": 2,
+        "number": "JVQ 52 ",
+        "series": "J",
+        "digit": 2,
+        "price": 43800,
+        "new": false
+    },
+    {
+        "id": 3,
+        "number": "BRC 4290",
+        "series": "B",
+        "digit": 4,
+        "price":  8000,
+        "new": true
+    },
+    {
+        "id": 4,
+        "number": "BAD 5567",
+        "series": "B",
+        "digit": 4,
+        "price":  800000,
+        "new": false
+    },{
+        "id": 1,
+        "number": "VE 1",
+        "series": "V",
+        "digit": 1,
+        "price": 338000,
+        "new": true
+    },
+    {
+        "id": 2,
+        "number": "JVQ 52 ",
+        "series": "J",
+        "digit": 2,
+        "price": 43800,
+        "new": true
+    },
+    {
+        "id": 3,
+        "number": "BRC 4290",
+        "series": "B",
+        "digit": 4,
+        "price":  8000,
+        "new": false
+    },
+    {
+        "id": 4,
+        "number": "BAD 5567",
+        "series": "B",
+        "digit": 4,
+        "price":  800000,
+        "new": false
+    },
+    {
+        "id": 5,
+        "number": "EFG 234",
+        "series": "E",
+        "digit": 3,
+        "price": 50000,
+        "new": true
+    },
+    {
+        "id": 6,
+        "number": "HIJ 5",
+        "series": "H",
+        "digit": 1,
+        "price": 150000,
+        "new": false
+    },
+    {
+        "id": 7,
+        "number": "CDE 789",
+        "series": "C",
+        "digit": 3,
+        "price": 75000,
+        "new": true
+    },
+    {
+        "id": 8,
+        "number": "AIJ 6789",
+        "series": "A",
+        "digit": 4,
+        "price": 22000,
+        "new": false
+    },
+    {
+        "id": 9,
+        "number": "GHI 45",
+        "series": "G",
+        "digit": 2,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 10,
+        "number": "BFG 23",
+        "series": "B",
+        "digit": 2,
+        "price": 120000,
+        "new": true
+    }, {
+        "id": 11,
+        "number": "DIJ 6789",
+        "series": "D",
+        "digit": 4,
+        "price": 20000,
+        "new": false
+    },
+    {
+        "id": 12,
+        "number": "FHI 45",
+        "series": "F",
+        "digit": 2,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 13,
+        "number": "EFG 67",
+        "series": "E",
+        "digit": 2,
+        "price": 180000,
+        "new": false
+    },
+    {
+        "id": 14,
+        "number": "AJK 891",
+        "series": "I",
+        "digit": 3,
+        "price": 8000,
+        "new": true
+    },
+    {
+        "id": 15,
+        "number": "JAI 23",
+        "series": "J",
+        "digit": 2,
+        "price": 200000,
+        "new": true
+    },
+    {
+        "id": 16,
+        "number": "BBB 678",
+        "series": "B",
+        "digit": 3,
+        "price": 55000,
+        "new": false
+    },
+    {
+        "id": 17,
+        "number": "GGG 345",
+        "series": "G",
+        "digit": 3,
+        "price": 43000,
+        "new": true
+    },
+    {
+        "id": 18,
+        "number": "IJI 67",
+        "series": "I",
+        "digit": 2,
+        "price": 90000,
+        "new": true
+    },
+    {
+        "id": 19,
+        "number": "EEE 1234",
+        "series": "E",
+        "digit": 4,
+        "price": 120000,
+        "new": false
+    },
+    {
+        "id": 20,
+        "number": "BGG 234",
+        "series": "B",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },{
+        "id": 21,
+        "number": "FFF 567",
+        "series": "F",
+        "digit": 3,
+        "price": 89000,
+        "new": false
+    },
+    {
+        "id": 22,
+        "number": "DDD 123",
+        "series": "D",
+        "digit": 3,
+        "price": 54000,
+        "new": true
+    },
+    {
+        "id": 23,
+        "number": "IJK 890",
+        "series": "I",
+        "digit": 3,
+        "price": 87000,
+        "new": false
+    },
+    {
+        "id": 24,
+        "number": "CCC 4567",
+        "series": "C",
+        "digit": 4,
+        "price": 72000,
+        "new": true
+    },
+    {
+        "id": 25,
+        "number": "GGG 234",
+        "series": "G",
+        "digit": 3,
+        "price": 55000,
+        "new": true
+    },
+    {
+        "id": 26,
+        "number": "EFG 901",
+        "series": "E",
+        "digit": 3,
+        "price": 67000,
+        "new": false
+    },
+    {
+        "id": 27,
+        "number": "BBB 890",
+        "series": "B",
+        "digit": 3,
+        "price": 43000,
+        "new": false
+    },
+    {
+        "id": 28,
+        "number": "JJJ 123",
+        "series": "J",
+        "digit": 3,
+        "price": 78000,
+        "new": true
+    },
+    {
+        "id": 29,
+        "number": "EFG 890",
+        "series": "E",
+        "digit": 3,
+        "price": 99000,
+        "new": true
+    },
+    {
+        "id": 30,
+        "number": "AII 567",
+        "series": "A",
+        "digit": 3,
+        "price": 60000,
+        "new": false
+    },
+    {
+        "id": 31,
+        "number": "GGG 456",
+        "series": "G",
+        "digit": 3,
+        "price": 72000,
+        "new": true
+    },
+    {
+        "id": 32,
+        "number": "CDE 123",
+        "series": "C",
+        "digit": 3,
+        "price": 54000,
+        "new": false
+    },
+    {
+        "id": 33,
+        "number": "DDD 234",
+        "series": "D",
+        "digit": 3,
+        "price": 55000,
+        "new": true
+    },
+    {
+        "id": 34,
+        "number": "BAA 567",
+        "series": "B",
+        "digit": 3,
+        "price": 89000,
+        "new": false
+    },
+    {
+        "id": 35,
+        "number": "FFF 123",
+        "series": "F",
+        "digit": 3,
+        "price": 78000,
+        "new": true
+    },
+    {
+        "id": 36,
+        "number": "DDD 890",
+        "series": "D",
+        "digit": 3,
+        "price": 99000,
+        "new": false
+    },
+    {
+        "id": 37,
+        "number": "EAA 567",
+        "series": "E",
+        "digit": 3,
+        "price": 60000,
+        "new": false
+    },
+    {
+        "id": 38,
+        "number": "HHH 456",
+        "series": "H",
+        "digit": 3,
+        "price": 72000,
+        "new": true
+    },
+    {
+        "id": 39,
+        "number": "GGG 234",
+        "series": "G",
+        "digit": 3,
+        "price": 54000,
+        "new": false
+    },
+    {
+        "id": 40,
+        "number": "EFG 567",
+        "series": "E",
+        "digit": 3,
+        "price": 78000,
+        "new": true
+    },{
+        "id": 41,
+        "number": "BAA 123",
+        "series": "B",
+        "digit": 3,
+        "price": 55000,
+        "new": true
+    },
+    {
+        "id": 42,
+        "number": "GGG 789",
+        "series": "G",
+        "digit": 3,
+        "price": 75000,
+        "new": false
+    },
+    {
+        "id": 43,
+        "number": "III 234",
+        "series": "I",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 44,
+        "number": "CCC 567",
+        "series": "C",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 45,
+        "number": "HHH 789",
+        "series": "H",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 46,
+        "number": "JAA 234",
+        "series": "J",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 47,
+        "number": "DEE 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 48,
+        "number": "AII 789",
+        "series": "A",
+        "digit": 3,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 49,
+        "number": "EEE 234",
+        "series": "E",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 50,
+        "number": "BBB 567",
+        "series": "B",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 51,
+        "number": "JKJ 779",
+        "series": "J",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 52,
+        "number": "CDE 234",
+        "series": "C",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 53,
+        "number": "DDD 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 54,
+        "number": "FFF 789",
+        "series": "F",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 55,
+        "number": "GHI 234",
+        "series": "G",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 56,
+        "number": "HIJ 567",
+        "series": "H",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 57,
+        "number": "GHI 789",
+        "series": "G",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 58,
+        "number": "ABC 234",
+        "series": "A",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 59,
+        "number": "DEF 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 60,
+        "number": "EFG 789",
+        "series": "E",
+        "digit": 3,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 61,
+        "number": "JJJ 234",
+        "series": "J",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 62,
+        "number": "BCD 567",
+        "series": "B",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 63,
+        "number": "FHI 789",
+        "series": "F",
+        "digit": 3,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 64,
+        "number": "GHI 234",
+        "series": "G",
+        "digit": 3,
+        "price": 28000,
+        "new": false
+    },
+    {
+        "id": 65,
+        "number": "DIJ 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 66,
+        "number": "DEF 789",
+        "series": "D",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 67,
+        "number": "GHI 234",
+        "series": "G",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 68,
+        "number": "HIJ 567",
+        "series": "H",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 69,
+        "number": "GHI 789",
+        "series": "G",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 70,
+        "number": "ABC 234",
+        "series": "A",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },{
+        "id": 71,
+        "number": "DEF 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 72,
+        "number": "EFG 789",
+        "series": "E",
+        "digit": 3,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 73,
+        "number": "JJJ 234",
+        "series": "J",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 74,
+        "number": "BCD 567",
+        "series": "B",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 75,
+        "number": "FHI 789",
+        "series": "F",
+        "digit": 3,
+        "price": 62000,
+        "new": true
+    },
+    {
+        "id": 76,
+        "number": "GHI 234",
+        "series": "G",
+        "digit": 3,
+        "price": 28000,
+        "new": false
+    },
+    {
+        "id": 77,
+        "number": "HIJ 567",
+        "series": "H",
+        "digit": 3,
+        "price": 40000,
+        "new": true
+    },
+    {
+        "id": 78,
+        "number": "GHI 789",
+        "series": "G",
+        "digit": 3,
+        "price": 62000,
+        "new": false
+    },
+    {
+        "id": 79,
+        "number": "ABC 234",
+        "series": "A",
+        "digit": 3,
+        "price": 28000,
+        "new": true
+    },
+    {
+        "id": 80,
+        "number": "DEF 567",
+        "series": "D",
+        "digit": 3,
+        "price": 40000,
+        "new": false
+    },
+    {
+        "id": 81,
+        "number": "AUV 1",
+        "series": "A",
+        "digit": 1,
+        "price": 600000,
+        "new": true
+    },
+    {
+        "id": 82,
+        "number": "BHX 22",
+        "series": "B",
+        "digit": 2,
+        "price": 550000,
+        "new": false
+    },
+    {
+        "id": 83,
+        "number": "CVY 333",
+        "series": "C",
+        "digit": 3,
+        "price": 720000,
+        "new": true
+    },
+    {
+        "id": 84,
+        "number": "DIS 4444",
+        "series": "D",
+        "digit": 4,
+        "price": 670000,
+        "new": true
+    },
+    {
+        "id": 85,
+        "number": "EJT 123",
+        "series": "E",
+        "digit": 3,
+        "price": 580000,
+        "new": false
+    },
+    {
+        "id": 86,
+        "number": "FVU 22",
+        "series": "F",
+        "digit": 2,
+        "price": 720000,
+        "new": true
+    },
+    {
+        "id": 87,
+        "number": "GRW 1",
+        "series": "G",
+        "digit": 1,
+        "price": 670000,
+        "new": false
+    },
+    {
+        "id": 88,
+        "number": "HSX 333",
+        "series": "H",
+        "digit": 3,
+        "price": 580000,
+        "new": true
+    },
+    {
+        "id": 89,
+        "number": "ITZ 4444",
+        "series": "I",
+        "digit": 4,
+        "price": 720000,
+        "new": false
+    },
+    {
+        "id": 90,
+        "number": "AJA 1",
+        "series": "A",
+        "digit": 1,
+        "price": 600000,
+        "new": true
+    },
+    {
+        "id": 91,
+        "number": "BKB 22",
+        "series": "B",
+        "digit": 2,
+        "price": 550000,
+        "new": false
+    },
+    {
+        "id": 92,
+        "number": "CLC 333",
+        "series": "C",
+        "digit": 3,
+        "price": 720000,
+        "new": true
+    },
+    {
+        "id": 93,
+        "number": "DMD 4444",
+        "series": "D",
+        "digit": 4,
+        "price": 670000,
+        "new": true
+    },
+    {
+        "id": 94,
+        "number": "ENE 123",
+        "series": "E",
+        "digit": 3,
+        "price": 580000,
+        "new": false
+    },
+    {
+        "id": 95,
+        "number": "FOF 22",
+        "series": "F",
+        "digit": 2,
+        "price": 720000,
+        "new": true
+    },
+    {
+        "id": 96,
+        "number": "GPG 1",
+        "series": "G",
+        "digit": 1,
+        "price": 670000,
+        "new": false
+    },
+    {
+        "id": 97,
+        "number": "HSH 333",
+        "series": "H",
+        "digit": 3,
+        "price": 580000,
+        "new": true
+    },
+    {
+        "id": 98,
+        "number": "ITI 4444",
+        "series": "I",
+        "digit": 4,
+        "price": 720000,
+        "new": false
+    },
+    {
+        "id": 99,
+        "number": "AUA 1",
+        "series": "A",
+        "digit": 1,
+        "price": 670000,
+        "new": true
+    },
+    {
+        "id": 100,
+        "number": "BVB 22",
+        "series": "B",
+        "digit": 2,
+        "price": 580000,
+        "new": true
+    }
+]

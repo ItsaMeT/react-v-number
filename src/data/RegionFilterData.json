@@ -1,0 +1,47 @@
+[
+    {
+        "regionCode": "A",
+        "region": "Perak",
+        "text": "A (Perak)"
+    },
+    {
+        "regionCode": "B",
+        "region": "Selangor",
+        "text": "B (Selangor)"
+    },
+    {
+        "regionCode": "C",
+        "region": "Pahang",
+        "text": "C (Pahang)"
+    },
+    {
+        "regionCode": "D",
+        "region": "Kelantan",
+        "text": "D (Kelantan)"
+    },
+    {
+        "regionCode": "E",
+        "region": "Series",
+        "text": "E Series"
+    },
+    {
+        "regionCode": "F",
+        "region": "Series",
+        "text": "F Series"
+    },
+    {
+        "regionCode": "G",
+        "region": "Series",
+        "text": "G Series"
+    },
+    {
+        "regionCode": "H",
+        "region": "Series",
+        "text": "H Series"
+    },
+    {
+        "regionCode": "I",
+        "region": "Series",
+        "text": "I Series"
+    }
+]

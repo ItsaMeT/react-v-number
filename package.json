@@ -1,0 +1,33 @@
+{
+  "name": "react-app",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://ItsaMeT.github.io/react-v-number",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@types/react-scroll": "^1.8.7",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "git": "^0.1.5",
+    "jquery": "^3.7.0",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

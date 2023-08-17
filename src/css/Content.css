@@ -1,0 +1,105 @@
+#content .card{
+    margin-bottom: 35px;
+    border: 2px white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(5, 5, 20, 0.2);
+}
+
+#content .card .carplate-number{
+    background-image: url("../assets/ContentCardBackground.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 5px 5px 0px 0px;
+    height: 130px;
+    text-align: center;
+}
+
+#content .card .carplate-number h1{
+    color: #625EF6;
+    font-family: "Roboto Medium";
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+#content .card .new-tag{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 29px;
+    background-color: #475364;
+    border-radius: 0px 5px 0px 27px;
+}
+
+#content .card .new-tag p{
+    color:white;
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    padding: 3px 0px 0px 19px;
+}
+
+#content .card .card-body{
+    padding-top: 19.2px;
+}
+
+#content .card .card-body p{
+    color: #6B7B8E;
+    font-family: 'Roboto Medium';
+    font-size: 12px;
+    margin: 0px;
+}
+
+#content .card .card-body h3{
+    color: #12243E;
+    font-family: 'Roboto Medium';
+    font-size: 22px;
+}
+
+#content .page-button{
+    z-index: 1;
+    margin-bottom: 117px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content .page-button a{
+    display:inline-flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    border-radius: 22px;
+    width: 44px;
+    height: 44px;
+    margin-right: 9px;
+    color: #475364;
+    border: 1px solid #C8CFD8;
+    font-size: 20px;
+    font-family: "Roboto Regular";
+    cursor: pointer;
+}
+
+#content .page-button a[disabled]{
+    color: white;
+    background-color: #12243E;
+}
+
+#content .page-button a.arrow{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #625EF6;
+    font-family: "Roboto Bold";
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    width: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+#content .page-button a.arrow.left{
+    margin-right: 9px;
+}

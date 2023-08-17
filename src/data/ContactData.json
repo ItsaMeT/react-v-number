@@ -1,0 +1,12 @@
+[
+    {
+        "icon": "/src/assets/ContactLocationIcon.svg",
+        "info": "Menara The Stride, Bukit Bintang City Centre, No. 2, Jalan Hang Tuah, 55100 Kuala Lumpur."
+    },{
+        "icon": "/src/assets/ContactPhoneIcon.svg",
+        "info": "+6 011 8888 6999"
+    },{
+        "icon": "/src/assets/ContactEmailIcon.svg",
+        "info": "interest@vnumber.com"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "floorPrice": 0,
+        "ceilingPrice": 50000,
+        "text": "Under RM 50,000"
+    },
+    {
+        "floorPrice": 50001,
+        "ceilingPrice": 80000,
+        "text": "RM 50,000 - RM 80,000"
+    },
+    {
+        "floorPrice": 80001,
+        "ceilingPrice": 100000,
+        "text": "RM 80,000 - RM 100,000"
+    },
+    {
+        "floorPrice": 100001,
+        "ceilingPrice": 200000,
+        "text": "RM 100,000 - RM 200,000"
+    },
+    {
+        "floorPrice": 300001,
+        "ceilingPrice": 400000,
+        "text": "RM 300,000 - RM 400,000"
+    },
+    { 
+        "floorPrice": 400001,
+        "ceilingPrice": 500000,
+        "text": "RM 400,000 - RM 500,000"
+    },
+    { 
+        "floorPrice": 500001,
+        "ceilingPrice": 600000,
+        "text": "RM 500,000 - RM 600,000"
+    },
+    { 
+        "floorPrice": 600001,
+        "ceilingPrice": 700000,
+        "text": "RM 600,000 - RM 700,000"
+    },
+    { 
+        "floorPrice": 700001,
+        "ceilingPrice": 800000,
+        "text": "RM 700,000 - RM 800,000"
+    }
+]

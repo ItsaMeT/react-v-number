@@ -1,0 +1,178 @@
+.search-title {
+    font-size: 23px;
+    font-family: 'Roboto Medium';
+    margin-bottom: 17px;
+    color: #12243E;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 84vh;
+    margin-bottom: 20px;
+    padding: 30px 30px 15px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Search Bar */
+#search-icon{
+    background-color: #ffffff;
+    border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 11px 18px 11px 17px;
+}
+
+#searchfield{ 
+    font-family: "Roboto Regular";
+    font-size: 16px;
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 11px 0px 11px 0px;
+    margin-right: 8px;
+}
+
+#search-button {
+    background-color: #12243E;
+    border: 0px;
+    border-radius: 5px;
+    width: 210px;
+}
+
+#search-button p{
+    font-family: "Roboto Regular";
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+}
+
+/* Digit Filter */
+#search-digit {
+    margin-top: 20px;
+    --bs-gutter-x: 0px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+#search-digit::-webkit-scrollbar {
+    width: 0px;
+}
+
+#search-digit .col{
+    margin-right: 8px;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 95px;
+    flex: none;
+}
+
+#search-digit .card-body{
+    font-size: 22px;
+    font-family: 'Roboto Medium';
+    color: white;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+}
+
+#search-digit .card-body h5{
+    padding: 0px 8px;
+    margin-bottom: 0;
+}
+
+#search-digit .card-body:disabled{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Price Filter */
+#search-price {
+    --bs-gutter-x: 0px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+#search-price::-webkit-scrollbar {
+    width: 0px;
+}
+
+#search-price .card-body{
+    background-color: #E5E5FF;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 8px 20px 8px 20px;
+    margin-right: 9px;
+    width: 180px;
+    flex: none;
+}
+
+#search-price .card-body:disabled{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+#search-price p{
+    font-family: 'Roboto Regular';
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Region Filter */
+#region {
+    --bs-gutter-x: 0px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+#region::-webkit-scrollbar {
+    width: 0px;
+}
+
+#search-region {
+    --bs-gutter-x: 0px;
+}
+
+#search-region #region .col.region button{
+    background-color: #FFFFFF;
+    border: .75px solid #C8CFD8;
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 5px;
+    width: 131px;
+    flex: none;
+}
+
+#search-region #region .col.region button:disabled{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+#search-region .arrow{
+    display: inline-block;
+    background-color: #C8CFD8;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+}
+
+#search-region .arrow.left{
+    margin-right: 9px;
+}
+
+#search-region .arrow.right{
+    margin-left: 9px;
+}
+
+#region p{
+    font-family: 'Roboto Medium';
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+

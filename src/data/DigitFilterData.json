@@ -1,0 +1,42 @@
+[
+    {
+        "digit": 1,
+        "text": "1 Digit Number",
+        "background": "/src/assets/OneDigitImage.svg"
+    },
+    {
+        "digit": 2,
+        "text": "2 Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 3,
+        "text": "3 Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 4,
+        "text": "4 Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 5,
+        "text": "Double Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 6,
+        "text": "Triple Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 7,
+        "text": "Quadruple Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    },
+    {
+        "digit": 8,
+        "text": "Quintuple Digit Number",
+        "background": "/src/assets/OtherDigitImage.svg"
+    }
+]

@@ -1,0 +1,50 @@
+#filter_by{
+    padding-top: 0px;
+    margin-bottom: 37px;
+    z-index: 1;
+    position: relative;
+    --bs-gutter-x: 50px;
+}
+
+#filter_by button{
+    margin-right: 10px;
+}
+
+#filter_by a{
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+}
+
+#reset_filter{
+    color: white;
+    background-color: #12243E;
+    border: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+#reset_filter a{
+    padding-left: 10px;
+}
+
+#reset_filter i{
+    font-size: 18px;
+}
+
+#filter_by .filter-by-criteria {
+    color: white;
+    background-color: #625EF6;
+    border: 0px;
+    padding: 0px 19px 0px 29px;
+    height: 32px;
+    width: fit-content;
+    border-radius: 16px;
+}
+
+#filter_by .filter-by-criteria i{
+    color:#A6A6B5;
+    font-size: 20px;
+    margin: 0px 0px 2px 15px;
+}

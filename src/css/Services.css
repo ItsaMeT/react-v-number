@@ -1,0 +1,113 @@
+#services{
+    background-image: url("../assets/ServicesBackground.svg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#services-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-gutter-x: 0px;
+}
+
+#services-cards .title{
+    background-size:cover;
+    position: absolute;
+    width: 444.4px;
+    height: 78.27px;
+    top:-13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#services-cards .title h1{
+    color: white;
+    font-family: "Roboto Medium";
+    font-size: 35px;
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+#services-cards .title-main{
+    position: absolute;
+    z-index: 1;
+}
+
+#services-cards .title-left{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 13.22px;
+    z-index: 0;
+}
+
+#services-cards .title-right{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 13.22px;
+    z-index: 0;
+}
+
+#services-cards .card{
+    width: 345px;
+    height: 345px;
+    margin: 219px 0px 135px 0px;
+    padding: 0px 45px 0px 45px;
+    border-radius: 5px 80px 5px 80px;
+    box-shadow: 5px 5px 20px rgba(101, 113, 255, 0.2);
+    align-items: center;
+    flex: none;
+}
+
+#services-cards .card-list .card:not(:last-child){
+    margin-right: 83px;
+}
+
+#services-cards .card img{
+    width: 175px;
+    height: 175px;
+    margin-top: 49px;
+}
+
+#services-cards .card .number-badge{
+    position: absolute;
+    top: -41px;
+    left: 46px;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border: 5px solid #E5E5FF;
+    margin-bottom: 0;
+    background-color: #625EF6;    
+}
+
+#services-cards .card .number-badge h2{
+    color: white;
+    font-family: "Roboto Medium";
+    font-size: 36px;
+    margin-bottom: 0;
+}
+#services-cards .card .card-body{
+    padding: 0;
+}
+#services-cards .card .card-body h5{
+    color: #12243E;
+    font-family: "Roboto Medium";
+    font-size: 24px;
+    text-align: center;
+    margin: 4px 0px 0px;
+}
+
+
+.shadow-filter {
+    filter: url('#drop-shadow');
+  }
