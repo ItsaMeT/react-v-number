@@ -1,8 +1,5 @@
 import "../css/Services.css";
-
-import ServicesTitleMain from "../assets/ServicesTitleMain.svg";
-import ServicesTitleLeft from "../assets/ServicesTitleLeft.svg";
-import ServicesTitleRight from "../assets/ServicesTitleRight.svg";
+import Images from "./Images";
 
 interface servicesData {
   serviceNumber: String;
@@ -19,9 +16,12 @@ function Services(props: ServicesProps) {
     <div id="services-cards">
       <div className="title">
         <h1>OUR SERVICES</h1>
-        <img src={ServicesTitleMain} className="title-main shadow-filter" />
-        <img src={ServicesTitleLeft} className="title-left" />
-        <img src={ServicesTitleRight} className="title-right" />
+        <img
+          src={Images["ServicesTitleMain.svg"]}
+          className="title-main shadow-filter"
+        />
+        <img src={Images["ServicesTitleLeft.svg"]} className="title-left" />
+        <img src={Images["ServicesTitleRight.svg"]} className="title-right" />
       </div>
       <div className="card-list row">
         {props.servicesData.map((servicesData, index) => (
@@ -29,7 +29,7 @@ function Services(props: ServicesProps) {
             <div className="number-badge">
               <h2>{servicesData.serviceNumber}</h2>
             </div>
-            <img src={servicesData.icon} alt="Image description"></img>
+            <img src={Images[servicesData.icon]} alt="Image description"></img>
             <div className="card-body">
               <h5 className="card-title">{servicesData.text}</h5>
             </div>

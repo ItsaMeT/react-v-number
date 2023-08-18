@@ -2,41 +2,41 @@
     {
         "digit": 1,
         "text": "1 Digit Number",
-        "background": "OneDigitImage"
+        "background": "OneDigitImage.svg"
     },
     {
         "digit": 2,
         "text": "2 Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 3,
         "text": "3 Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 4,
         "text": "4 Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 5,
         "text": "Double Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 6,
         "text": "Triple Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 7,
         "text": "Quadruple Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     },
     {
         "digit": 8,
         "text": "Quintuple Digit Number",
-        "background": "OtherDigitImage"
+        "background": "OtherDigitImage.svg"
     }
 ]

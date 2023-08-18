@@ -1,6 +1,8 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 
+import WhatsappIcon from "./assets/WhatsappIcon.svg";
+
 import Header from "./components/Header";
 import Search from "./components/Search";
 import Content from "./components/Content";
@@ -51,7 +53,7 @@ const App: React.FC = () => {
       <Content contentData={contentData} setFilterValues={returnedFilter} />
       <Services servicesData={servicesData} />
       <Contact contactData={contactData} />
-      <img id="whatsapp_icon" src="./src/assets/WhatsappIcon.svg" />
+      <img id="whatsapp_icon" src={WhatsappIcon} />
     </div>
   );
 };

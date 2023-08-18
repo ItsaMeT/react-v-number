@@ -63,17 +63,13 @@
 #search-digit .col{
     margin-right: 8px;
     width: 180px;
-    flex: none;
-}
-
-#search-digit .col div{
     height: 95px;
+    flex: none;
     background-size: cover;
     background-position: center;
 }
 
 #search-digit .card-body{
-    height: 95px;
     font-size: 22px;
     font-family: 'Roboto Medium';
     color: white;

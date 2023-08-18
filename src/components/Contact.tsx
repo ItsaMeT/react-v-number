@@ -1,7 +1,5 @@
 import "../css/Contact.css";
-
-import FacebookIcon from "../assets/FooterFacebookIcon.svg";
-import InstagramIcon from "../assets/FooterInstagramIcon.svg";
+import Images from "./Images";
 
 interface contactData {
   icon: string;
@@ -29,7 +27,7 @@ function GetInTouch(props: ContactDataProps) {
       {props.contactData.map((contactData, index) => (
         <div className="contact-row d-flex align-items-center" key={index}>
           <div className="contact-icon">
-            <img src={contactData.icon} />
+            <img src={Images[contactData.icon]} />
           </div>
           <div className="contact-info">
             <p>{contactData.info}</p>
@@ -49,8 +47,12 @@ function GetInTouch(props: ContactDataProps) {
         </div>
         <div className="col-3">
           <div className="d-flex justify-content-end">
-            <img id="facebook_icon" src={FacebookIcon} alt="Facebook Icon" />
-            <img src={InstagramIcon} alt="Instagram Icon" />
+            <img
+              id="facebook_icon"
+              src={Images["FooterFacebookIcon.svg"]}
+              alt="Facebook Icon"
+            />
+            <img src={Images["FooterInstagramIcon.svg"]} alt="Instagram Icon" />
           </div>
         </div>
       </div>

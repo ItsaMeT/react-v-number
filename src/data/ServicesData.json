@@ -1,15 +1,15 @@
 [
     {
         "serviceNumber": "01",
-        "icon": "assets/ServicesIconCar.svg",
+        "icon": "ServicesIconCar.svg",
         "text": "New & Used Vehicle Transfer & Registration"
     },{
         "serviceNumber": "02",
-        "icon": "assets/ServicesIconDocument.svg",
+        "icon": "ServicesIconDocument.svg",
         "text": "Vehicle PUSPAKOM & Interchange Services"
     },{
         "serviceNumber": "03",
-        "icon": "assets/ServicesIconAgent.svg",
+        "icon": "ServicesIconAgent.svg",
         "text": "Vehicle Insurance Agent"
     }
 ]
